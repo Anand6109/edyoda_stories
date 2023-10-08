@@ -1,0 +1,202 @@
+#logo{
+    width: 130px;
+    font-size: 32px;
+    color: #0084ff;
+    font-weight: 800;
+  }
+              
+  #logostories{
+    Margin: 0;
+    font-weight: 500;
+    font: Raleway;
+  }
+  
+  .navbar{
+    padding: 16px 78px;
+    background-color: #fff;
+    font-family: Raleway,sans-serif;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .dropdown{
+    float: left;
+    overflow: hidden;
+    padding: auto;
+    margin: auto;
+    padding-left: 60px;
+  }
+  .dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a{
+    float: none;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+    position: fixed;
+  }
+  .dropdownicon{
+    padding-top: 0px;
+    padding-left: 8px;
+   } 
+
+
+
+
+
+
+
+
+
+.header{
+ 
+    Padding: 0px 30px;
+    background-color: #fff;
+    display: flex;
+    
+  }
+
+.header #dropdown img {
+           height: 20px;
+           width: 30px;
+    }
+
+ .logo{  
+        Width: 130px;
+        margin-left: 0px;
+       font-size:  20px;
+        color: #0084ff
+ }
+ .stories{
+             margin-top: 5px;
+            
+             color: black;
+             font-style: Italic;
+ }  
+
+ .filterimg img{
+             margin-left: 200px;
+             height: 30px;
+             width: 30px;
+             display: flex;
+            }
+.filterinfo{
+             display: flex;
+             
+           }
+
+.FilterText {
+             margin-left: 10px;
+             font-size: 16px;
+             margin-top: 5px;
+           }          
+
+.Categories {
+              margin-left: 190px;
+              margin-top: 5px;
+              font-size: 16px;
+              padding-top: 0px;
+              display: flex;
+              
+            }
+
+.Button #All {
+          Padding: 6px 14px;
+          Width: auto;
+          color: #0084ff;
+          border-radius: 15px;
+          Border: 1px solid #0084ff;
+          Margin: 5px;
+          Cursor: pointer
+             }
+
+#All:hover {
+                    background-color: #0084ff;
+                    color: white;
+
+          }
+
+.TrendingPosts {
+                 margin-left: 200px;
+              }
+
+.cardContainer {
+                 margin-left: 155px;
+                 margin-top: 4px;
+                 width: 80%;
+                 height: 900px;
+                 
+                 display: flex;
+                 flex-wrap: wrap
+                 
+                }
+
+.card {
+        Height: 360px;
+        Width: 280px;
+       background-color: white;
+        margin-left: 50px;
+       border: solid rgb(198, 207, 245) 1px;
+       border-radius: 5px;
+       margin-bottom: 0px;
+
+
+       }
+
+.card img {
+              Height: 176px;
+              Width: 280px;
+              border-radius: 5px;
+           }
+
+.card #introduction {
+                font-size: 18px;
+}
+
+.card #Edyoda {
+                color: rgb(25, 100, 187);
+               
+             }                 
+.card #date {
+               color: rgba(0,0,0,0.7);
+           }
+
+.card #Information {
+                    color: rgb(136, 134, 134);
+                    
+                    height: 1.43;
+                    
+                    Margin: 4px, 0;
+                    
+                   }
+
+.card #section {
+                Padding: 5px 10px;
+}
+
